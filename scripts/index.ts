@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import ejs from 'ejs';
 
-const ignored = ['build', 'scripts', '.git', 'node_modules'];
+const ignored = ['build', 'scripts', '.git', 'node_modules', '.github'];
 
 (async function main() {
   try {
