@@ -15,7 +15,8 @@ Please read the following before contributing to the repository:
 ## 💻 Projects
 
  
-- [projects](./projects/projects)
+- [3-d-css](./projects/3-d-css) 
+- [Notex](./projects/Notex)
 
 ## 😎 Maintainer
 
