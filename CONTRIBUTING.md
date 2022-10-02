@@ -2,7 +2,7 @@
 
 ## ❓ What to contribute?
 
-Using simple HTML, CSS, and JavaScript, you can contribute an awesome web project. In addition, you can also contribute to existing projects. Ensure the project you contribute is unique. Pull requests that contain spam or plagiarism will not be considered
+Using simple HTML, CSS, and JavaScript, you can contribute an awesome web project. In addition, you can also contribute to existing projects. Ensure the project you contribute is unique. Pull requests that contain spam or plagiarism will not be considered.
 
 ## 🤔 How to contribute?
 
