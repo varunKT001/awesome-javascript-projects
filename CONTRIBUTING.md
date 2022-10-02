@@ -4,6 +4,10 @@
 
 Using simple HTML, CSS, and JavaScript, you can contribute an awesome web project. In addition, you can also contribute to existing projects. Ensure the project you contribute is unique. Pull requests that contain spam or plagiarism will not be considered
 
+## ❗ Important
+
+Make sure that each project you create has a `index.html` file. The HTML file should be named `index.html` and placed in the root directory of your project.
+
 ## 🤔 How to contribute?
 
 Here are the steps you can follow to start contributing:
