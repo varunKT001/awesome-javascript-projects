@@ -14,7 +14,8 @@ Please read the following before contributing to the repository:
 
 ## 💻 Projects
 
-
+ 
+- [projects](./projects/projects)
 
 ## 😎 Maintainer
 
