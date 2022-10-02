@@ -6,7 +6,7 @@ const ignored = ['build', 'scripts', '.git', 'node_modules', '.github'];
 
 (async function main() {
   try {
-    const direntList = fs.readdirSync(path.resolve('./'), {
+    const direntList = fs.readdirSync(path.resolve('./projects'), {
       withFileTypes: true,
     });
 
