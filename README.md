@@ -16,6 +16,7 @@ Please read the following before contributing to the repository:
 
  
 - [3-d-css](./projects/3-d-css) 
+- [Gradient-generator](./projects/Gradient-generator) 
 - [Notex](./projects/Notex)
 
 ## 😎 Maintainer
