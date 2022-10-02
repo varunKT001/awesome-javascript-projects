@@ -15,8 +15,7 @@ Please read the following before contributing to the repository:
 ## 💻 Projects
 
  
-- [p1](./p1) 
-- [p2](./p2)
+- [.github](./.github)
 
 ## 😎 Maintainer
 
