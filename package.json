@@ -1,0 +1,28 @@
+{
+  "name": "awesome-javascript-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "copyfiles": "copyfiles --error --up 1 scripts/templates/*.* build",
+    "postbuild": "npm run copyfiles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varunKT001/awesome-javascript-projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varunKT001/awesome-javascript-projects/issues"
+  },
+  "homepage": "https://github.com/varunKT001/awesome-javascript-projects#readme",
+  "dependencies": {
+    "@types/ejs": "^3.1.1",
+    "@types/node": "^18.7.23",
+    "copyfiles": "^2.4.1",
+    "ejs": "^3.1.8"
+  }
+}

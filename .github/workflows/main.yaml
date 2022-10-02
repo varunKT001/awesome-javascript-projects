@@ -1,0 +1,37 @@
+name: README build
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout current repository to Main branch
+        uses: actions/checkout@v2
+      - name: Setup NodeJs 13.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: '13.x'
+      - name: Cache dependencies and build outputs to improve workflow execution time.
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
+      - name: Install dependencies
+        run: npm install
+      - name: Create build
+        run: npm run build
+      - name: Generate README file
+        run: node build/index.js
+      - name: Commit and push
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: Varun Tiwari
+          author_email: tiwarivarun819.vt33.vt@gmail.com
+          message: ':memo: Update README.md'
