@@ -33,6 +33,7 @@ Please read the following before contributing to the repository:
 - [Tribute-project](./projects/Tribute-project) 
 - [Weather-Forecast-Webapp](./projects/Weather-Forecast-Webapp) 
 - [calculator](./projects/calculator) 
+- [clock](./projects/clock) 
 - [quote-generator](./projects/quote-generator)
 
 ## 😎 Maintainer
