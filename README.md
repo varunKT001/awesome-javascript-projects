@@ -2,7 +2,7 @@
 
 ![Banner](./scripts/assets/banner.png)
 
-In this repository, you can find JavaScript-based projects that beginners can use for their first web project.
+In this repository, you can find JavaScript-based projects that beginners can use for their first web project. 
 
 ## 💙 For contributors
 
@@ -14,14 +14,15 @@ Please read the following before contributing to the repository:
 
 ## 💻 Projects
 
-- [3-d-css](./projects/3-d-css)
-- [Event-Webpage](./projects/Event-Webpage)
-- [Food-delivery-system](./projects/Food-delivery-system)
-- [Gradient-generator](./projects/Gradient-generator)
-- [Notex](./projects/Notex)
-- [Parallax-webpage](./projects/Parallax-webpage)
-- [Survey-form](./projects/Survey-form)
-- [Tribute-project](./projects/Tribute-project)
+ 
+- [3-d-css](./projects/3-d-css) 
+- [Event-Webpage](./projects/Event-Webpage) 
+- [Food-delivery-system](./projects/Food-delivery-system) 
+- [Gradient-generator](./projects/Gradient-generator) 
+- [Notex](./projects/Notex) 
+- [Parallax-webpage](./projects/Parallax-webpage) 
+- [Survey-form](./projects/Survey-form) 
+- [Tribute-project](./projects/Tribute-project) 
 - [calculator](./projects/calculator)
 
 ## 😎 Maintainer
