@@ -6,7 +6,33 @@ Using simple HTML, CSS, and JavaScript, you can contribute an awesome web projec
 
 ## ❗ Important
 
-Make sure that each project you create has a `index.html` file. The HTML file should be named `index.html` and placed in the root directory of your project.
+👉 Make sure that each project you create has a `index.html` file. The HTML file should be named `index.html` and placed in the root directory of your project.
+
+👉 Make sure that the project name does not contain a blank space.
+
+<table>
+<tr>
+  <td>Wrong ❌</td>
+  <td>Right ✅</td>
+</tr>
+<tr>
+  <td><code>javascript project</code></td>
+  <td><code>javascript-project</code></td>
+</tr>
+<table>
+
+👉 While adding images or linking some other `html` files, make sure the links do not start with a forward-slash (/).
+
+<table>
+<tr>
+  <td>Wrong ❌</td>
+  <td>Right ✅</td>
+</tr>
+<tr>
+  <td><code>/image.png</code></td>
+  <td><code>image.png</code></td>
+</tr>
+<table>
 
 ## 🤔 How to contribute?
 
