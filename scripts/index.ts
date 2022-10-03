@@ -15,12 +15,17 @@ const ignored = ['build', 'scripts', '.git', 'node_modules', '.github'];
       return false;
     });
 
-    const templatePath = path.resolve(__dirname, 'templates', 'template.ejs');
+    const readmePath = path.resolve(__dirname, 'templates', 'readme.ejs');
+    const htmlPath = path.resolve(__dirname, 'templates', 'html.ejs');
 
-    const template = fs.readFileSync(templatePath);
-    const output = ejs.render(template.toString(), { projectList });
+    const readme = fs.readFileSync(readmePath);
+    const html = fs.readFileSync(htmlPath);
 
-    fs.writeFileSync('./README.md', output);
+    const readmeOutput = ejs.render(readme.toString(), { projectList });
+    const htmlOutput = ejs.render(html.toString(), { projectList });
+
+    fs.writeFileSync('./README.md', readmeOutput);
+    fs.writeFileSync('./index.html', htmlOutput);
   } catch (error) {
     console.log(error);
   }
