@@ -20,6 +20,7 @@ Please read the following before contributing to the repository:
 - [Food-delivery-system](./projects/Food-delivery-system) 
 - [Gradient-generator](./projects/Gradient-generator) 
 - [Guess-the-color](./projects/Guess-the-color) 
+- [JavaScript-timeline](./projects/JavaScript-timeline) 
 - [Login-Form](./projects/Login-Form) 
 - [Notex](./projects/Notex) 
 - [Palindrome-checker](./projects/Palindrome-checker) 
@@ -28,7 +29,8 @@ Please read the following before contributing to the repository:
 - [Survey-form](./projects/Survey-form) 
 - [Tic-tac-toe](./projects/Tic-tac-toe) 
 - [Tribute-project](./projects/Tribute-project) 
-- [calculator](./projects/calculator)
+- [calculator](./projects/calculator) 
+- [quote generator](./projects/quote generator)
 
 ## 😎 Maintainer
 
