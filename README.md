@@ -19,6 +19,7 @@ Please read the following before contributing to the repository:
 - [Event-Webpage](./projects/Event-Webpage) 
 - [Food-delivery-system](./projects/Food-delivery-system) 
 - [Github-Search-Profile-App](./projects/Github-Search-Profile-App) 
+- [Gradient-Generator-Advanced](./projects/Gradient-Generator-Advanced) 
 - [Gradient-generator](./projects/Gradient-generator) 
 - [Guess-the-color](./projects/Guess-the-color) 
 - [JavaScript-timeline](./projects/JavaScript-timeline) 
