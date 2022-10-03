@@ -30,6 +30,7 @@ Please read the following before contributing to the repository:
 - [Stopwatch](./projects/Stopwatch) 
 - [Survey-form](./projects/Survey-form) 
 - [Tic-tac-toe](./projects/Tic-tac-toe) 
+- [Todo](./projects/Todo) 
 - [Tribute-project](./projects/Tribute-project) 
 - [Weather-Forecast-Webapp](./projects/Weather-Forecast-Webapp) 
 - [analog-clock](./projects/analog-clock) 
