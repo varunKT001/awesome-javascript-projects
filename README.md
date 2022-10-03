@@ -22,6 +22,7 @@ Please read the following before contributing to the repository:
 - [Guess-the-color](./projects/Guess-the-color) 
 - [Login-Form](./projects/Login-Form) 
 - [Notex](./projects/Notex) 
+- [Palindrome-checker](./projects/Palindrome-checker) 
 - [Parallax-webpage](./projects/Parallax-webpage) 
 - [Stopwatch](./projects/Stopwatch) 
 - [Survey-form](./projects/Survey-form) 
