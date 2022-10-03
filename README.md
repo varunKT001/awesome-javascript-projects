@@ -32,6 +32,7 @@ Please read the following before contributing to the repository:
 - [Tic-tac-toe](./projects/Tic-tac-toe) 
 - [Tribute-project](./projects/Tribute-project) 
 - [Weather-Forecast-Webapp](./projects/Weather-Forecast-Webapp) 
+- [analog-clock](./projects/analog-clock) 
 - [calculator](./projects/calculator) 
 - [clock](./projects/clock) 
 - [quote-generator](./projects/quote-generator)
