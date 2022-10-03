@@ -18,6 +18,7 @@ Please read the following before contributing to the repository:
 - [3-d-css](./projects/3-d-css) 
 - [Event-Webpage](./projects/Event-Webpage) 
 - [Food-delivery-system](./projects/Food-delivery-system) 
+- [Github Search Profile App](./projects/Github Search Profile App) 
 - [Gradient-generator](./projects/Gradient-generator) 
 - [Guess-the-color](./projects/Guess-the-color) 
 - [JavaScript-timeline](./projects/JavaScript-timeline) 
