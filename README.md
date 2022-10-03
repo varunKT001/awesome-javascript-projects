@@ -17,8 +17,10 @@ Please read the following before contributing to the repository:
  
 - [3-d-css](./projects/3-d-css) 
 - [Event-Webpage](./projects/Event-Webpage) 
+- [Food-delivery-system](./projects/Food-delivery-system) 
 - [Gradient-generator](./projects/Gradient-generator) 
 - [Notex](./projects/Notex) 
+- [Parallax-webpage](./projects/Parallax-webpage) 
 - [Tribute-project](./projects/Tribute-project)
 
 ## 😎 Maintainer
