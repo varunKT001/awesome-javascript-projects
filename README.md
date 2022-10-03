@@ -19,9 +19,13 @@ Please read the following before contributing to the repository:
 - [Event-Webpage](./projects/Event-Webpage) 
 - [Food-delivery-system](./projects/Food-delivery-system) 
 - [Gradient-generator](./projects/Gradient-generator) 
+- [Guess-the-color](./projects/Guess-the-color) 
+- [Login-Form](./projects/Login-Form) 
 - [Notex](./projects/Notex) 
 - [Parallax-webpage](./projects/Parallax-webpage) 
+- [Stopwatch](./projects/Stopwatch) 
 - [Survey-form](./projects/Survey-form) 
+- [Tic-tac-toe](./projects/Tic-tac-toe) 
 - [Tribute-project](./projects/Tribute-project) 
 - [calculator](./projects/calculator)
 
