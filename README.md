@@ -29,6 +29,7 @@ Please read the following before contributing to the repository:
 - [Survey-form](./projects/Survey-form) 
 - [Tic-tac-toe](./projects/Tic-tac-toe) 
 - [Tribute-project](./projects/Tribute-project) 
+- [Weather Forecast Webapp](./projects/Weather Forecast Webapp) 
 - [calculator](./projects/calculator) 
 - [quote-generator](./projects/quote-generator)
 
