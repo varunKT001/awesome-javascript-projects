@@ -18,7 +18,7 @@ Please read the following before contributing to the repository:
 - [3-d-css](./projects/3-d-css) 
 - [Event-Webpage](./projects/Event-Webpage) 
 - [Food-delivery-system](./projects/Food-delivery-system) 
-- [Github Search Profile App](./projects/Github Search Profile App) 
+- [Github-Search-Profile-App](./projects/Github-Search-Profile-App) 
 - [Gradient-generator](./projects/Gradient-generator) 
 - [Guess-the-color](./projects/Guess-the-color) 
 - [JavaScript-timeline](./projects/JavaScript-timeline) 
@@ -30,7 +30,7 @@ Please read the following before contributing to the repository:
 - [Survey-form](./projects/Survey-form) 
 - [Tic-tac-toe](./projects/Tic-tac-toe) 
 - [Tribute-project](./projects/Tribute-project) 
-- [Weather Forecast Webapp](./projects/Weather Forecast Webapp) 
+- [Weather-Forecast-Webapp](./projects/Weather-Forecast-Webapp) 
 - [calculator](./projects/calculator) 
 - [quote-generator](./projects/quote-generator)
 
