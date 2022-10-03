@@ -16,7 +16,18 @@ Please read the following before contributing to the repository:
 
  
 - [3-d-css](./projects/3-d-css) 
+<<<<<<< HEAD
 - [Notex](./projects/Notex)
+=======
+- [Event-Webpage](./projects/Event-Webpage) 
+- [Food-delivery-system](./projects/Food-delivery-system) 
+- [Gradient-generator](./projects/Gradient-generator) 
+- [Notex](./projects/Notex) 
+- [Parallax-webpage](./projects/Parallax-webpage) 
+- [Survey-form](./projects/Survey-form) 
+- [Tribute-project](./projects/Tribute-project) 
+- [calculator](./projects/calculator)
+>>>>>>> 399f688bbed225e2062edf9be949faff459c2fad
 
 ## 😎 Maintainer
 
