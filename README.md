@@ -30,7 +30,7 @@ Please read the following before contributing to the repository:
 - [Tic-tac-toe](./projects/Tic-tac-toe) 
 - [Tribute-project](./projects/Tribute-project) 
 - [calculator](./projects/calculator) 
-- [quote generator](./projects/quote generator)
+- [quote-generator](./projects/quote-generator)
 
 ## 😎 Maintainer
 
