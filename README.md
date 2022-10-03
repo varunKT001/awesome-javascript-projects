@@ -22,7 +22,8 @@ Please read the following before contributing to the repository:
 - [Notex](./projects/Notex) 
 - [Parallax-webpage](./projects/Parallax-webpage) 
 - [Survey-form](./projects/Survey-form) 
-- [Tribute-project](./projects/Tribute-project)
+- [Tribute-project](./projects/Tribute-project) 
+- [calculator](./projects/calculator)
 
 ## 😎 Maintainer
 
