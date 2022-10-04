@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+p {
+  text-align: center;
+  font-size: 20px;
+}
+.date{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+</style>
+</head>
+<body>
+    <p>Enter the date you want to countdown from:</p>
+    <div class="date">
+        <input type="datetime-local" id="meeting-time" name="meeting-time">
+        <label >Enter a month:</label>
+        <input type="text" id="mon">
+        <label >Enter the date</label>
+        <input type="text" id="date">
+        <label>Enter the year</label>
+        <input type="text" id="year">
+        <button onclick="FindDate()">click to print time</button>
+        <p id="demo"></p>
+    </div>
+<script src="script.js">
+</script>
+  
+</body>
+</html>
