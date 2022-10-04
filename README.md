@@ -38,6 +38,7 @@ Please read the following before contributing to the repository:
 - [analog-clock](./projects/analog-clock) 
 - [calculator](./projects/calculator) 
 - [clock](./projects/clock) 
+- [digital-clock](./projects/digital-clock) 
 - [light-dark-mode-toggle](./projects/light-dark-mode-toggle) 
 - [quote-generator](./projects/quote-generator)
 
