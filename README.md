@@ -30,6 +30,7 @@ Please read the following before contributing to the repository:
 - [Palindrome-checker](./projects/Palindrome-checker) 
 - [Parallax-webpage](./projects/Parallax-webpage) 
 - [Stopwatch](./projects/Stopwatch) 
+- [Student-Enrollment-Form](./projects/Student-Enrollment-Form) 
 - [Survey-form](./projects/Survey-form) 
 - [Tic-tac-toe](./projects/Tic-tac-toe) 
 - [Todo](./projects/Todo) 
