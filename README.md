@@ -38,6 +38,7 @@ Please read the following before contributing to the repository:
 - [Todo](./projects/Todo) 
 - [Tribute-project](./projects/Tribute-project) 
 - [Weather-Forecast-Webapp](./projects/Weather-Forecast-Webapp) 
+- [Windows11 Clone](./projects/Windows11 Clone) 
 - [analog-clock](./projects/analog-clock) 
 - [calculator](./projects/calculator) 
 - [clock](./projects/clock) 
