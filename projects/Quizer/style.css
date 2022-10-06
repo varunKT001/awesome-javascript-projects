@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Josefin+Slab:ital,wght@0,300;1,300&family=Open+Sans:wght@300;700;800&family=Potta+One&family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:500;
+}
+html{
+    font-size:80%;
+}
+.maindiv{
+ width: 100vw;
+ min-height:100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background-image: url(./background-mobile-80e4cb88302b915369dd867d671d1656.png);
+ background-color:hsl(206,91%,95%);
+}
+.innerbox{
+    width:50vw;
+   
+    background-color:#fff;
+    padding:3rem 7rem;
+    border-radius:8px;
+    box-shadow:-1rem 1rem 1rem -0.4rem rgba(0,0,0,0.4);
+}
+.innerbox h2{
+    text-align:center;
+    
+    margin:0.2rem 0 1.8rem 0;
+    font-weight:bold;
+    
+}
+.innerbox li{
+  font-size:1.5rem;
+  margin: 0.8rem;
+ list-style: none;
+ font-family:sans-serif;
+
+}
+input:hover{
+    cursor: pointer;
+}
+#sub-btn ,.btn{
+   
+    padding:0.4rem 1.3rem;
+    font-size:1.2rem;
+    font-weight:bold;
+    display:block;
+    margin: auto;
+   text-transform: uppercase;
+   color:#fff;
+   background-color:dodgerblue;
+   border: none;
+   border-radius:1rem;
+}
+#sub-btn:hover{
+    background-color:crimson;
+    cursor: pointer;
+}
+#showscore{
+    background-color: #dfe6e9;
+    margin-top:3rem;
+    padding: 3rem 4rem;
+    box-shadow:0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+#showscore h3{
+   font-size:2rem;
+   text-align: center;
+}
+#showscore .btn{
+   margin-top:2rem;
+   background-color:#00b894;
+  color:#fff;
+}
+#showscore .btn:hover{
+   cursor:pointer;
+   background-color: green;
+}
+
+.score{
+    display: none;
+}
