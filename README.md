@@ -18,6 +18,7 @@ Please read the following before contributing to the repository:
 - [3-d-css](./projects/3-d-css) 
 - [BMI-calculator](./projects/BMI-calculator) 
 - [Count-down](./projects/Count-down) 
+- [Currency-Convertor](./projects/Currency-Convertor) 
 - [Event-Webpage](./projects/Event-Webpage) 
 - [Food-delivery-system](./projects/Food-delivery-system) 
 - [Github-Search-Profile-App](./projects/Github-Search-Profile-App) 
