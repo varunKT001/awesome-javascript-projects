@@ -19,7 +19,7 @@ Please read the following before contributing to the repository:
 - [BMI-calculator](./projects/BMI-calculator) 
 - [Count-down](./projects/Count-down) 
 - [Currency-Convertor](./projects/Currency-Convertor) 
-- [Drawing_App](./projects/Drawing_App) 
+- [Drawing-App](./projects/Drawing-App) 
 - [Event-Webpage](./projects/Event-Webpage) 
 - [Food-delivery-system](./projects/Food-delivery-system) 
 - [Github-Search-Profile-App](./projects/Github-Search-Profile-App) 
