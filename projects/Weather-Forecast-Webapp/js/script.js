@@ -6,6 +6,7 @@ locationBtn = inputPart.querySelector("button"),
 weatherPart = wrapper.querySelector(".weather-part"),
 wIcon = weatherPart.querySelector("img"),
 arrowBack = wrapper.querySelector("header i");
+const btnInfo= document.querySelector(".info-text")
 
 let api;
 
@@ -51,7 +52,7 @@ function fetchData(){
 function weatherDetails(info){
     if(info.cod == "404"){
         infoTxt.classList.replace("pending", "error");
-        infoTxt.innerText = `${inputField.value} isn't a valid city name`;
+        btnInfo.innerText = `${inputField.value} isn't a valid city name`;
     }else{
         const city = info.name;
         const country = info.sys.country;
@@ -59,17 +60,17 @@ function weatherDetails(info){
         const {temp, feels_like, humidity} = info.main;
 
         if(id == 800){
-            wIcon.src = "icons/clear.svg";
+            wIcon.src = "js/icons/clear.svg";
         }else if(id >= 200 && id <= 232){
-            wIcon.src = "icons/storm.svg";  
+            wIcon.src = "js/icons/storm.svg";  
         }else if(id >= 600 && id <= 622){
-            wIcon.src = "icons/snow.svg";
+            wIcon.src = "js/icons/snow.svg";
         }else if(id >= 701 && id <= 781){
-            wIcon.src = "icons/haze.svg";
+            wIcon.src = "js/icons/haze.svg";
         }else if(id >= 801 && id <= 804){
-            wIcon.src = "icons/cloud.svg";
+            wIcon.src = "js/icons/cloud.svg";
         }else if((id >= 500 && id <= 531) || (id >= 300 && id <= 321)){
-            wIcon.src = "icons/rain.svg";
+            wIcon.src = "js/icons/rain.svg";
         }
         
         weatherPart.querySelector(".temp .numb").innerText = Math.floor(temp);
