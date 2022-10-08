@@ -71,7 +71,7 @@ div.nav{
 }
 
 .back{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url("back.jpg");
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url("images/back.jpg");
     width: 100%;
     height: 100vh;
     background-size: cover;
