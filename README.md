@@ -49,6 +49,7 @@ Please read the following before contributing to the repository:
 - [light-dark-mode-toggle](./projects/light-dark-mode-toggle) 
 - [quote-generator](./projects/quote-generator) 
 - [todolist](./projects/todolist)
+- [Bookshelf-App](./projects/Bookshelf-App)
 
 ## 😎 Maintainer
 
