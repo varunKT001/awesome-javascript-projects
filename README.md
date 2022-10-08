@@ -17,6 +17,7 @@ Please read the following before contributing to the repository:
  
 - [3-d-css](./projects/3-d-css) 
 - [BMI-calculator](./projects/BMI-calculator) 
+- [Bookshelf-App](./projects/Bookshelf-App) 
 - [Count-down](./projects/Count-down) 
 - [Currency-Convertor](./projects/Currency-Convertor) 
 - [Drawing-App](./projects/Drawing-App) 
@@ -49,7 +50,6 @@ Please read the following before contributing to the repository:
 - [light-dark-mode-toggle](./projects/light-dark-mode-toggle) 
 - [quote-generator](./projects/quote-generator) 
 - [todolist](./projects/todolist)
-- [Bookshelf-App](./projects/Bookshelf-App)
 
 ## 😎 Maintainer
 
