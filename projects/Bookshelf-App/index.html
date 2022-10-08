@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Bookshelf App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <h2>Bookshelf App</h2>
+    </header>
+    <main class="container">
+        <div class="form">
+            <div class="search">
+                <h3>Search Book by Title</h3>
+                <label for="title">Book Title</label>
+                <form action="#" id="search-form">
+                    <div class="search-bar">
+                        <input type="text" id="search" required>
+                        <button type="submit" id="search-button">Find Books</button>
+                    </div>
+                </form>
+            </div>
+            <div class="entry">
+                <h3>Insert New Book</h3>
+                <form action="#" id="form" class="form">
+                    <div class="book-data">
+                        <label for="title">Book Title</label>
+                        <input type="text" id="title" name="title" required>
+                    </div>
+                    <div class="book-data">
+                        <label for="author">Author</label>
+                        <input type="text" id="author" name="author" required>
+                    </div>
+                    <div class="book-data">
+                        <label for="year">Year</label>
+                        <input type="text" id="year" name="year" required>
+                    </div>
+                    <div class="isfinished">
+                        <input type="checkbox" id="status" name="status" value="1">
+                        <label for="status">I've read this book</label><br>
+                    </div>
+                    <button type="submit" id="insert" class="action">Insert Book Data</button>
+                </form>
+            </div>
+        </div>
+        <div class="bookshelf">
+            <div class="unfinised">
+                <h3>Unfinished Books</h3>
+                <div class="list-books" id="books">
+
+                </div>
+            </div>
+            <div class="finished">
+                <h3>Finished Books</h3>
+                <div class="list-books" id="completed-books"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&#169; 2022 - Chidambaram Sathappan</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
