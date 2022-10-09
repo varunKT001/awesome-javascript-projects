@@ -1,0 +1,99 @@
+*{  margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow: hidden; 
+    background-color:  rgba(69, 105, 204, 0.733);
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{  
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 2.5rem;
+    margin-top: 50px;
+    padding: 15px;
+    background-color:  rgba(83, 116, 207, 0.733)  ;
+    display: inline-block;
+    width: 50%;
+    align-self: center;
+    
+}
+h1 span{
+    background-color: rgb(0, 238, 255)   ;
+    padding: 2px;
+    border: 2px solid rgb(0, 238, 255) ;
+    border-radius: 10px;
+    color: black;
+}
+
+p{    
+    margin: 20px;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+#message-el{
+    font-style: italic;
+    font-weight: 600;
+}
+p span{
+    padding: 10px ;
+    border-radius: 15px;
+    background-color: rgb(61, 192, 239);
+}
+
+#start,#newCard{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 15px;
+    font-size: 1.3rem;
+    border-radius: 25px;
+    color: rgb(0, 0, 0) ;
+    background-color: rgba(83, 116, 207, 0.733) ;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: 600;
+}
+#start:hover ,
+#newCard:hover{
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(0, 170, 255, 0.625);
+}
+
+.btn{
+    display: grid;
+    grid-template-columns: repeat(1,200px);
+    justify-content: center;
+}
+
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border-radius:20px;
+    box-shadow:4px 4px 22px ;
+    background-color: #131a3e;
+    padding-top: 100px !important;
+}
+
+
+@media screen and (max-width:550px) {
+    .container{
+        width: 95%;
+        
+    }
+    h1{
+        width: 70%;
+    }
+    #message-el{
+        font-size: 1.2rem;
+    }
+}
