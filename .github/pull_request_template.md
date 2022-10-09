@@ -1,4 +1,5 @@
 **Issue reference:**
+Fixes #<ISSUE_NUMBER>
 
 **Proposed changes:**
 
