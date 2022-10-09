@@ -1,9 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="index.css">
+</head>
 <body>
 	<div>
 		<p id="intro">Calculate your BMI (body mass index) by using the form below. Enter your weight and height and click the Calculate button to display your BMI result.</p>
 		<form action="none" method="post" name="bmiform">
 			<fieldset>
-			<legend>Height and Weight</legend>
+				<legend>Height and Weight</legend>
 				<label for="pounds">Weight (pounds):</label>
 				<input type="text" name="pounds" id="pounds">
 				<br>
@@ -13,10 +22,12 @@
 				<button type="button" name="calculate" value="Calculate your BMI" onclick="calcBMI()">Calculate your BMI</button>
 			</fieldset>
 			<fieldset>
-			<legend>BMI</legend>
+				<legend>BMI</legend>
 				<label for="bmi" id="bmi_label">Your calculated BMI is:</label>
 				<input type="text" name="bmi" id="bmi" readonly="readonly">
 			</fieldset>
 		</form>
 	</div>
+	<script src="index.js"></script>
 </body>
+</html>
