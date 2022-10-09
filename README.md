@@ -49,6 +49,7 @@ Please read the following before contributing to the repository:
 - [digital-clock](./projects/digital-clock) 
 - [light-dark-mode-toggle](./projects/light-dark-mode-toggle) 
 - [quote-generator](./projects/quote-generator) 
+- [rgb-to-hex-convertor](./projects/rgb-to-hex-convertor) 
 - [rock-paper-scissors](./projects/rock-paper-scissors) 
 - [todolist](./projects/todolist)
 
