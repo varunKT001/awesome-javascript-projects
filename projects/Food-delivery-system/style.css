@@ -12,12 +12,6 @@
   font-size: 20px;
   font-family: "Ubuntu Mono", monospace;
 }
-#top1 {
-  text-align: center;
-  color: black;
-  font-size: 21px;
-  font-family: "Ubuntu Mono", monospace;
-}
 /* Navigation bar styling*/
 
 /*Navbar image styling*/
@@ -74,7 +68,6 @@ ul li a {
   border-radius: 10px;
   padding: 6px 10px;
     font-size: 1.5rem;
-    /* font-family: sans-serif; */
     font-weight: 600;
 }
 ul li a:hover {
@@ -86,20 +79,14 @@ ul li a:hover {
 /* website background image designing */
 
 .hero {
-
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
   width: 100vw;
   height: 63vh;
 }
 
 .hero {
   content: "";
-  /* position: absolute; */
-  /* background: url(https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_960_720.jpg) no-repeat center/cover; */
   margin-top: 0px;
-  background: url(./back_image.jpeg) no-repeat center/cover;
+  background: url(back_image.jpeg) no-repeat center/cover;
   height: 100vh;
   width: 100%;
   z-index: -1;
@@ -109,8 +96,6 @@ ul li a:hover {
 #container1 {
   width: 60%;
 }
-
-/*Setting the background image using before pseudo selector*/
 
 
 #row1 {
@@ -138,7 +123,6 @@ ul li a:hover {
 
 #row2 p {
   color: white;
-  /* font-weight: bold; */
   font-size: 1.5rem;
   margin-left: 75px;
   word-spacing: 0.2rem;
@@ -146,7 +130,6 @@ ul li a:hover {
 }
 
 .btn {
-  /* width: 80px; */
   padding: 18px 23px;
   border-radius: 10px;
   margin: auto;
@@ -182,7 +165,6 @@ ul li a:hover {
 .hero2 {
 
   color: rgb(187, 56, 56);
-  /* margin-top: 108vh; */
 }
 
 #top3 {
@@ -193,23 +175,16 @@ ul li a:hover {
 }
 #container4 {
   display: grid;
-    /* background-image: url(./frenchFries.png); */
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     margin: 41px;
     margin-top: 70px;
     margin-left: 160px;
 }
 .row4 {
-  /* 
-  border: 2px solid black;
-  background: url("a1.jpeg") no-repeat center center/cover;
-  border-radius: 15px; */
   width: 20vw;
   height: 300px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-      align-items: flex-end; */
 }
 
 .row4 img {
@@ -219,7 +194,6 @@ ul li a:hover {
 }
 
 .btn1 {
-  /* width: 80px; */
   padding: 15px 18px;
   border-radius: 10px;
   margin: auto;
