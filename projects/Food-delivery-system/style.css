@@ -2,49 +2,57 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Roboto', sans-serif;
 }
 /*Header Styling*/
 
 #top {
-  color: rgb(245, 10, 10);
+  color: rgb(233, 103, 103);
   text-align: center;
-  font-size: 46px;
-  font-family: "Ubuntu Mono", monospace;
-}
-#top1 {
-  text-align: center;
-  color: black;
-  font-size: 21px;
+  font-size: 20px;
   font-family: "Ubuntu Mono", monospace;
 }
 /* Navigation bar styling*/
 
 /*Navbar image styling*/
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 93px;
+}
+
+.logo h1 {
+  margin-left: 10px;
+}
+
 #navbar img {
   display: block;
-  width: 50px;
-  height: 50px;
-  margin: auto;
-  margin-bottom: 3px;
+  width: 40px;
+  height: 37px;
 }
 
 /*Navbar Functionality*/
 #navbar {
   display: flex;
-  flex-direction: column;
-  background-color: gray;
-  height: 14vh;
-  width: 100vw;
-  font-family: "Ubuntu Mono", monospace;
-  margin-top: 10px;
-  border: 2px solid black;
-  border-radius: 15px;
+    flex-direction: row;
+    background-color: rgba(33 33 33 / 88%);
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    border: none;
+    font-family: "Ubuntu Mono", monospace;
+    z-index: 200;
 }
 
 /*Navbar content functionality*/
 #navcontent {
   display: flex;
   justify-content: center;
+  margin-right: 156px;
 }
 
 /*Navbar content styling*/
@@ -58,136 +66,149 @@ ul li a {
   color: white;
   text-decoration: none;
   border-radius: 10px;
+  padding: 6px 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 ul li a:hover {
-  background-color: red;
+  background-color: rgb(228, 98, 98);
   border-radius: 10px;
+  color: black;
 }
 
 /* website background image designing */
-#container1 {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+.hero {
   width: 100vw;
   height: 63vh;
 }
 
-/*Setting the background image using before pseudo selector*/
-#container1::before {
+.hero {
   content: "";
-  background: url("./1.jpg") no-repeat center center/cover;
-  width: 100vw;
-  height: 59vh;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  font-family: "Ubuntu Mono", monospace;
-  margin-right: 45px;
-  font-weight: bold;
+  margin-top: 0px;
+  background: url(back_image.jpeg) no-repeat center/cover;
+  height: 100vh;
+  width: 100%;
   z-index: -1;
-  opacity: 0.89;
-  border: 2px solid black;
-  border-bottom-left-radius: 100px;
+  opacity: .89;
 }
 
+#container1 {
+  width: 60%;
+}
+
+
 #row1 {
-  color: black;
-  font-weight: bold;
-  font-size: 2rem;
-  text-align: center;
-  margin-top: 35px;
+  color: white;
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-left: 60px;
+    margin-top: 4px;
+    word-spacing: 0.2rem;
+    padding-top: 202px;
 }
 /*Button Styling*/
-.btn {
-  margin-top: 15px;
-  border: 3px solid white;
-  border-radius: 15px;
-  background-color: yellow;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: "Ubuntu Mono", monospace;
-}
-.btn:hover {
-  cursor: pointer;
-  background-color: red;
-}
 
 #container3 {
   display: flex;
   justify-content: space-evenly;
+    margin-top: 500px;
 }
 #row2 {
-  width: 24vw;
-  height: 21vh;
-  box-shadow: 2px 7px 16px 19px;
-  margin-top: 51px;
-  margin-bottom: 51px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  position: relative;
-  margin-right: 38px;
-  border-radius: 40px;
+      display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 40px;
 }
-#row2::before {
-  content: "";
-  background: url("2.jpeg") no-repeat center center/cover;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 24vw;
-  height: 21vh;
-  z-index: -1;
-  border-radius: 40px;
+
+#row2 p {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 75px;
+  word-spacing: 0.2rem;
+  margin-bottom: 60px;
 }
+
+.btn {
+  padding: 18px 23px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: rgb(187, 76, 76);
+  color: black;
+  font-weight: 900;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+
+}
+
+.btn:hover {
+  background-color: rgb(187, 56, 56);
+  cursor: pointer;
+}
+
+
 #row3 {
   position: relative;
-  width: 24vw;
-  height: 21vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  box-shadow: 2px 7px 16px 19px;
-  margin-top: 51px;
-  margin-bottom: 51px;
-
-  margin-left: 38px;
-  border-radius: 40px;
+    width: 24vw;
+    height: 21vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    margin-left: 38px;
+    border-radius: 40px;
 }
-#row3::before {
-  content: "";
-  background: url("3.jpeg") no-repeat center center/cover;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 24vw;
-  height: 21vh;
-  z-index: -1;
-  border-radius: 40px;
+
+.hero2 {
+
+  color: rgb(187, 56, 56);
 }
 
 #top3 {
   text-align: center;
-  color: red;
-  font-family: "Ubuntu Mono", monospace;
+  font-size: 3.0rem;
+  font-weight: bold;
+  margin-top: 50px;
 }
 #container4 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  margin: 41px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 41px;
+    margin-top: 70px;
+    margin-left: 160px;
 }
-#row4 {
-  width: 29vw;
-  height: 360px;
-  border: 2px solid black;
-  background: url("a1.jpeg") no-repeat center center/cover;
+.row4 {
+  width: 20vw;
+  height: 300px;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  border-radius: 15px;
+  flex-direction: column;
 }
+
+.row4 img {
+  border-radius: 10px;
+  height: 600px;
+  margin-bottom: 40px;
+}
+
+.btn1 {
+  padding: 15px 18px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: rgb(187, 76, 76);
+  color: black;
+  font-weight: 700;
+  border: none;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: rgb(187, 56, 56);
+}
+
 #row5 {
   width: 29vw;
   height: 360px;
@@ -210,16 +231,25 @@ ul li a:hover {
 }
 /*Designing the footer*/
 footer {
-  text-align: center;
+  height: 80px;
+    text-align: center;
+    margin-top: 150px;
+    background-color: rgb(12, 6, 6);
 }
+
+footer p {
+  padding-top: 30px;
+  color: white;
+}
+
 /*Designing of Contact Us*/
 #ContactUs {
   width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: gray;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
 }
 .form-shape input,
 .form-shape select,
