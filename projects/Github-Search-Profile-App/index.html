@@ -7,27 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Github Search</title>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
-        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-    <div class="upper">
-        <input type="text" id="searchbar" placeholder="Enter Github Username">
-        <button id="btn">Search</button>
+    <div class="container">
+        <form class="upper">
+            <div class="input-wrapper">
+                <input type="search" id="searchbar" placeholder="Enter Github Username" required>
+                <img src="https://s2.svgbox.net/octicons.svg?ic=search&color=000" width="20" height="20">
+            </div>
+            <button id="btn" type="submit">Search</button>
+        </form>
+
+        <div class="bottom"></div>
+
+        <div class="not-found">
+            <h4>4 0 4</h4>
+            <span>User Not found</span>
+        </div>
+
+        <div class="loader hidden">
+            <img src="https://s2.svgbox.net/loaders.svg?ic=puff&color=fff" width="62" height="62">
+        </div>
+
     </div>
-
-    <div class="bottom">
-
-        
-
-    </div>
-
 
     <script src="script.js"></script>
 </body>
