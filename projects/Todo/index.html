@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,23 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <div id="myDIV" class="header">
-        <h2>My To Do List</h2>
-        <input type="text" id="myInput" placeholder="Title...">
-        <span onclick="newElement()" class="addBtn">Add</span>
+    <div class="header-bg">
+        <h4>TODO LIST</h4>
     </div>
-    
-    <ul id="myUL">
-        <li>Hit the gym</li>
-        <li class="checked">Pay bills</li>
-        <li>Read a book</li>
-    
-    </ul>
-    
+
+    <div class="container">
+        <form class="add-todo">
+            <input type="text" id="myInput" placeholder="Title..." required>
+            <button type="submit" class="addBtn">Add</button>
+        </form>
+        <div class="todo-list">
+            <ul id="myUL"></ul>
+        </div>
+    </div>
+
 </body>
 <script src="./index.js"></script>
+
 </html>
