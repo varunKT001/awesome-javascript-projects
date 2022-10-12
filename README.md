@@ -23,7 +23,7 @@ Please read the following before contributing to the repository:
 - [Drawing-App](./projects/Drawing-App) 
 - [Event-Webpage](./projects/Event-Webpage) 
 - [Food-delivery-system](./projects/Food-delivery-system) 
-- [GYM website](./projects/GYM website) 
+- [GYM-website](./projects/GYM-website) 
 - [Github-Search-Profile-App](./projects/Github-Search-Profile-App) 
 - [Gradient-Generator-Advanced](./projects/Gradient-Generator-Advanced) 
 - [Gradient-generator](./projects/Gradient-generator) 
