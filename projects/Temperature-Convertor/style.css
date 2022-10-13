@@ -32,6 +32,7 @@ h1{
     backdrop-filter: blur(10px);
     box-shadow: 0 10px 10px rgba(0,0,0,0.25);
     margin-bottom: 30px;
+   margin-left: 38px;
 }
 
 .container{
@@ -45,6 +46,7 @@ h1{
     justify-content: center;
     align-items: center;
     padding: 20px 15px;
+    margin-top: 40px;
 }
 input, select{
     height: 50px;
@@ -63,7 +65,7 @@ input, select{
     display: none;
 }
 #temp{
-    width: 55%;
+    width: 58%;
 }
 #option{
     width: 42%;
@@ -106,4 +108,14 @@ input, select{
     .container{
         width: 90%;
     }
+}
+
+.head{
+    display: flex;
+    align-items: center;
+}
+
+.base,img{
+    height: 3rem;
+    margin-top: 12px;
 }
