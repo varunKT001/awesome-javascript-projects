@@ -28,6 +28,7 @@ Please read the following before contributing to the repository:
 - [Gradient-Generator-Advanced](./projects/Gradient-Generator-Advanced) 
 - [Gradient-generator](./projects/Gradient-generator) 
 - [Guess-the-color](./projects/Guess-the-color) 
+- [HeightConverter](./projects/HeightConverter) 
 - [JavaScript-timeline](./projects/JavaScript-timeline) 
 - [Login-Form](./projects/Login-Form) 
 - [Notex](./projects/Notex) 
