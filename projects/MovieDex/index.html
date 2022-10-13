@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to MovieDex</title>
+
+    <!-- fav icon  -->
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+
+    <!-- style.css  -->
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav container">
+            <!-- logo  -->
+            <a href="index.html" class="logo">Movie<span>Dex</span></a>
+
+            <div class="nav-icons">
+                <div class="search-bar">
+                    <input type="text" class="search-text">
+                    <div class="search-btn">
+                        <i class='bx bx-search-alt-2 '></i>
+                    </div>
+                    
+                </div>
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+
+
+            <!-- -------menu------- -->
+            <div class="menu">
+                <img src="img/img3.png" alt="">
+                <div class="navbar">
+                    <li><a class="nav-a" href="#home">Home</a></li>
+                    <li><a class="nav-a" href="#trending">Trending</a></li>
+                    <li><a class="nav-a" href="#new">Recent</a></li>
+                    <li><a class="nav-a" href="#genre">Genre</a></li>
+                    <li><a class="nav-a" href="#contact">Contact Us</a></li>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="search container">
+        <div class="heading">
+            <i class='bx bx-search-alt-2 '></i>
+            <h2>Search results for :</h2>
+        </div>
+        <div id="search-content">
+            
+        </div>
+    </section>
+
+    <!-- home section start -->
+    
+    <div id="main-content">
+        <section class="home container " id="home">
+            <div class="home-slider swiper">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-wrapper " id="home-slider-wrapper">
+    
+                    <!-- <div class="swiper-slide home-box">
+                        <div class="blackbg"></div>
+                        <img class="movieBackDrop" src="https://image.tmdb.org/t/p/w500/geYUecpFI2AonDLhjyK9zoVFcMv.jpg"
+                            alt="">
+                        <img src="https://image.tmdb.org/t/p/w500/3pTwMUEavTzVOh6yLN0aEwR7uSy.jpg" alt="" class="movieCard">
+    
+                        <div class="home-text">
+                            <h1>Jujutsu Kaisen 0</h1>
+                            <p>Yuta Okkotsu is a nervous high school student who is suffering from a serious problem—his
+                                childhood
+                                friend Rika has turned into a curse and won't leave him alone. Since Rika is no ordinary
+                                curse,
+                                his
+                                plight is noticed by Satoru Gojo, a teacher at Jujutsu High, a school where fledgling
+                                exorcists
+                                learn
+                                how to combat curses. Gojo convinces Yuta to enroll, but can he learn enough in time to
+                                confront
+                                the
+                                curse that haunts him?</p>
+                            <a href="#" class="btn">Watch Now</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+    
+    
+        </section>
+    
+    
+        <!-- trending section  -->
+    
+        <section class="trending container" id="trending">
+            <div class="heading">
+                <i class='bx bxs-flame'></i>
+                <h2>Trending</h2>
+            </div>
+    
+            <div class="swiper trending-content">
+                <div class="swiper-button-next swiper-btn"></div>
+                <div class="swiper-button-prev swiper-btn"></div>
+                <div class="swiper-wrapper " id="trending-slider">
+                    <!-- slide 1 -->
+                    <div id="loader1">
+                        <div class="loader-icon"></div>
+                    </div>
+                    <!-- <div class="swiper-slide">
+                        <div class="box">
+                            <img src="anime_card_example.jpg" alt="">
+    
+                
+                            <div class="box-text">
+                                <div class="blur-bg"></div>
+                                <h2>One Piece</h2>
+                                <h3>Adventure</h3>
+                                <div class="play-movie">
+                                    <div class="rating">
+                                        <i class='bx bxs-star'></i>
+                                        <span>4.7</span>
+    
+                                    </div>
+                                    <a href="#" class="box-btn"><i class='bx bx-play-circle'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+    
+    
+    
+        </section>
+    
+        <!-- New Section  -->
+    
+        <section class="new container" id="new">
+    
+            <div class="heading">
+                <i class='bx bxs-camera-movie'></i>
+                <h2>Recent</h2>
+            </div>
+    
+            <div id="new-content">
+                <!-- <div class="loader2">
+                    <div class="loader-icon"></div>
+                </div> -->
+    
+    
+            </div>
+    
+            <div id="next-page">
+                <a id="next-page-button" href="#new">Next Page</a>
+            </div>
+        </section>
+    
+        <!-- genre section  -->
+        <section class="genre container" id="genre">
+            <div class="heading">
+                <i class='bx bxs-camera-movie'></i>
+                <h2>Genre</h2>
+    
+                <div class="all-genre-container">
+                    <div class="genre-item highlight-genre">
+                        Comedy
+                    </div>
+                    <div class="genre-item">
+                        Action
+                    </div>
+                    <div class="genre-item">
+                        Adventure
+                    </div>
+                    <div class="genre-item">
+                        Animation
+                    </div>
+                    <div class="genre-item">
+                        Crime
+                    </div>
+                    <div class="genre-item">
+                        Fantasy
+                    </div>
+                    <div class="genre-item">
+                        Horror
+                    </div>
+                    <div class="genre-item">
+                        Romance
+                    </div>
+                    <div class="genre-item">
+                        Thriller
+                    </div>
+                </div>
+            </div>
+    
+            <div id="genre-content">
+                <div class="loader2">
+                    <div class="loader-icon"></div>
+                </div>
+    
+    
+            </div>
+            
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
