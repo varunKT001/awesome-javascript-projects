@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pet Conversation</title>
+</head>
+<body>
+    <h1>Choose a pet to have a conversation with:</h1>
+    <ul id="pet-selector">
+        <li>
+            <input type="radio" id="cat-option" name="pet-choice" value="cat" checked>
+            <img src="http://placekitten.com/150/150" alt="random image of a cat">
+        </li>
+        <li>
+            <input type="radio" id="dog-option" name="pet-choice" value="dog">
+            <img src="http://place.dog/150/150" alt="random image of a dog">
+        </li>
+    </ul>
+    <div id="chat-window">
+        <div id="conversation"></div>
+        <input type="text" id="my-message">
+        <button id="btn-send">Send</button>
+    </div>
+<script src="./script.js"/>
+</body>
+</html>
