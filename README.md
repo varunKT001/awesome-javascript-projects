@@ -20,6 +20,7 @@ Please read the following before contributing to the repository:
 - [BlackJack-Game](./projects/BlackJack-Game) 
 - [Count-down](./projects/Count-down) 
 - [Currency-Convertor](./projects/Currency-Convertor) 
+- [DiceGame](./projects/DiceGame) 
 - [Drawing-App](./projects/Drawing-App) 
 - [Event-Webpage](./projects/Event-Webpage) 
 - [Food-delivery-system](./projects/Food-delivery-system) 
