@@ -16,6 +16,7 @@ Please read the following before contributing to the repository:
 
  
 - [3-d-css](./projects/3-d-css) 
+- [8-ball](./projects/8-ball) 
 - [BMI-calculator](./projects/BMI-calculator) 
 - [BlackJack-Game](./projects/BlackJack-Game) 
 - [Count-down](./projects/Count-down) 
