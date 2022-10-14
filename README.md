@@ -41,6 +41,7 @@ Please read the following before contributing to the repository:
 - [Student-Enrollment-Form](./projects/Student-Enrollment-Form) 
 - [Survey-form](./projects/Survey-form) 
 - [Temperature-Convertor](./projects/Temperature-Convertor) 
+- [Tic Tac Toe](./projects/Tic Tac Toe) 
 - [Tic-tac-toe](./projects/Tic-tac-toe) 
 - [Todo](./projects/Todo) 
 - [Tribute-project](./projects/Tribute-project) 
