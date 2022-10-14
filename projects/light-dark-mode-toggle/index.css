@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,900&display=swap");
 
 html {
   width: 100%;
@@ -15,7 +15,7 @@ html {
   --lightColor: #232323;
 }
 
-html[data-theme='dark'] {
+html[data-theme="dark"] {
   background: var(--lightBg);
   --lightBtn: #ffbd07;
   --lightBg: #232323;
@@ -23,12 +23,12 @@ html[data-theme='dark'] {
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   color: var(--lightColor);
 }
 
-input[type='checkbox'] {
+input[type="checkbox"] {
   height: 0;
   width: 0;
   visibility: hidden;
@@ -51,7 +51,7 @@ label {
 }
 
 label:after {
-  content: '';
+  content: "";
   background: #fff;
   width: 20px;
   height: 20px;
@@ -75,12 +75,4 @@ input:checked + label:after {
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
   transform: translateX(-100%);
-}
-
-html.transition,
-html.transition *,
-html.transition *:before,
-html.transition *:after {
-  transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 420ms !important;
-  transition-delay: 0 !important;
 }
