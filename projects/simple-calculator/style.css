@@ -1,0 +1,139 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+    "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  justify-content: center;
+  line-height: 1.5;
+  min-height: 100vh;
+  padding: 5%;
+}
+
+.calculator {
+  background-color: #1e293b;
+  border-radius: 1rem;
+  box-shadow: 0 1rem #0f172a;
+  color: #f8fafc;
+  display: grid;
+  font-size: 1.5rem;
+  gap: 1.25rem;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 500px;
+  padding: 3rem 1.5rem 1.5rem;
+}
+
+.screen {
+  border-radius: 1rem;
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-rows: 2fr 1fr;
+  margin-bottom: 0.25rem;
+}
+
+input,
+button {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+}
+
+input {
+  background-color: #94a3b8;
+  padding: 0.5rem 1rem;
+  text-align: right;
+  width: 100%;
+}
+
+.input {
+  border-radius: 1rem 1rem 0 0;
+  box-shadow: 0 0.25rem #64748b inset;
+  font-size: 3.5rem;
+}
+
+.output {
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0 -0.25rem #64748b inset;
+  font-size: 2.5rem;
+}
+
+button {
+  background-color: #475569;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem #334155;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+button:active {
+  box-shadow: none;
+  position: relative;
+  top: 0.5rem;
+}
+
+.clear {
+  background-color: #bbf7d0;
+  box-shadow: 0 0.5rem #86efac;
+  color: #0f172a;
+  grid-column: 1 / 3;
+}
+
+.operators {
+  display: grid;
+  gap: 1rem;
+  grid-column: 4 / 5;
+  grid-row: 2 / 6;
+}
+
+.operator,
+.percentage {
+  background-color: #bfdbfe;
+  box-shadow: 0 0.5rem #93c5fd;
+  color: #0f172a;
+}
+
+.numbers {
+  display: grid;
+  gap: 1.25rem;
+  grid-column: 1 / 4;
+  grid-row: 3 / 7;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.zero {
+  grid-column: 1 / 3;
+}
+
+.decimal {
+  grid-column: 3 / 4;
+  grid-row: 6 / 7;
+}
+
+.equal {
+  background-color: #e2e8f0;
+  box-shadow: 0 0.5rem #cbd5e1;
+  color: #334155;
+}
+
+.brand {
+  font-size: 1rem;
+  font-weight: bold;
+  grid-column: 1 / -1;
+  margin-top: 1.25rem;
+  text-align: center;
+}
