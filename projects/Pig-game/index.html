@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pig Game</title>
+  </head>
+  <body>
+    <section class="rule">
+      <button class="btn-rule">Rules</button>
+    </section>
+    <div class="rule-set">
+      <!-- <div class="btn-back">
+        <button class="back-button">Back to Game</button>
+      </div> -->
+      <div class="rules-play">
+        <h1>RULES TO PLAY</h1>
+        <h2>How to win</h2>
+        <p>The player who will score a total of 50 first will win the Game.</p>
+        <h2>How to play</h2>
+        <p>
+          You have to roll the dice to get a number and the numbers will keep on
+          adding in your total score to reach a total of 50 and the game ends.
+        </p>
+        <h2>Use of hold button</h2>
+        <p>
+          If 1 comes up when you roll the dice then all your current score will
+          be zero. So to avoid the situation where you have made a good current
+          score and you want to add it in your total score then you can use hold
+          button to add it and pass the chance to the opponent.
+        </p>
+      </div>
+    </div>
+    <main class="main">
+      <section class="player player-0 player-active">
+        <h2 class="name" id="name-0">player-1</h2>
+        <p class="score" id="score-0">10</p>
+        <div class="current">
+          <p class="current-label">current</p>
+          <p class="current-score" id="current-0">0</p>
+        </div>
+      </section>
+      <section class="player player-1">
+        <h2 class="name" id="name-1">player-2</h2>
+        <p class="score" id="score-1">6</p>
+        <div class="current">
+          <p class="current-label">current</p>
+          <p class="current-score" id="current-1">0</p>
+        </div>
+      </section>
+
+      <span class="fa-solid dice"></span>
+      <button class="btn btn-new">New Game</button>
+      <button class="btn btn-roll">Roll dice</button>
+      <button class="btn btn-hold">Hold</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
