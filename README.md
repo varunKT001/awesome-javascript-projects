@@ -36,6 +36,7 @@ Please read the following before contributing to the repository:
 - [Notex](./projects/Notex) 
 - [Palindrome-checker](./projects/Palindrome-checker) 
 - [Parallax-webpage](./projects/Parallax-webpage) 
+- [Pet-Conversation](./projects/Pet-Conversation) 
 - [Quizer](./projects/Quizer) 
 - [Stopwatch](./projects/Stopwatch) 
 - [Student-Enrollment-Form](./projects/Student-Enrollment-Form) 
