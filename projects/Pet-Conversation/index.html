@@ -11,7 +11,7 @@
     <h1>Choose a pet to have a conversation with:</h1>
     <ul id="pet-selector">
         <li>
-            <input type="radio" id="cat-option" name="pet-choice" value="cat" checked>
+            <input type="radio" id="cat-option" name="pet-choice" value="cat" >
             <img src="http://placekitten.com/150/150" alt="random image of a cat">
         </li>
         <li>
@@ -21,8 +21,10 @@
     </ul>
     <div id="chat-window">
         <div id="conversation"></div>
-        <input type="text" id="my-message">
-        <button id="btn-send">Send</button>
+        <div id="send-message">
+            <input type="text" id="my-message">
+            <button id="btn-send">Send</button>
+        </div>
     </div>
 <script src="./script.js"/>
 </body>

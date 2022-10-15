@@ -1,11 +1,20 @@
-:root{
-    --background-color:#68B0AB;
-    --chat-background-color:#FAF3DD;
-    --text-color-1:#4A7C59;
-    --text-color-2: #8FC0A9;
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    --background-color: #00d2ff;
+    --chat-background-color: #E3E7D3;
+    --text-color-1: #FF206E;
+    --text-color-2: #0C0F0A;
+    --text-color-3: #0897b7;
+    --background-color2: #928DAB
 }
-body{
-    background-color: var(--background-color);
+
+body {
+    background: var(--background-color);
+    background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);
+    background: linear-gradient(to right, #928DAB, #00d2ff);
+    font-family: 'Indie Flower', cursive;
+    color: var(--text-color-2);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,29 +22,30 @@ body{
     width: 100%;
 }
 
-ul#pet-selector{
+ul#pet-selector {
     display: flex;
-    margin:0px;
+    margin: 0px;
     padding: 0px;
 }
 
-ul li{
+ul li {
     list-style: none;
     display: flex;
     flex-direction: column-reverse;
     margin: 20px;
 }
 
-img{
+img {
     border-radius: 50%;
 }
-div#chat-window{
+
+div#chat-window {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#conversation{
+#conversation {
     background-color: var(--chat-background-color);
     height: 30vh;
     width: 30vw;
@@ -44,38 +54,49 @@ div#chat-window{
     overflow-y: auto;
 }
 
-p{
+p {
     font-weight: bold;
     margin: 5px;
 }
 
-.user-message{
+#send-message {
+    display: flex;
+    margin: 10px 0px;
+    border-radius: 5%;
+}
+
+#send-message button {
+    padding: 5px 15px;
+    border: none;
+    font-size: large;
+    background-color: var(--chat-background-color);
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+#send-message input[type="text"] {
+    padding: 5px 15px;
+    border: none;
+    background-color: var(--chat-background-color);
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+#send-message input[type="text"]:focus-visible {
+    outline: none;
+}
+
+#send-message button:hover {
+    background-color: var(--background-color2);
+    color: white;
+}
+
+.user-message {
     text-align: right;
     color: var(--text-color-1);
 }
 
-.pet-message{
+.pet-message {
     text-align: left;
-    color:var(--text-color-2)
-}
-
-input[type="text"]{
-    padding: 5px 15px;
-    margin: 10px 0px;
-    border: none;
-    border-radius: 30px;
-    width: 80%;
-}
-
-button{
-    padding: 5px 15px;
-    margin: 10px 0px;
-    border: none;
-    border-radius: 30px;
-    font-size: larger;
-    max-width: 20vh;
-}
-
-button:hover{
-
+    color: var(--text-color-3)
 }

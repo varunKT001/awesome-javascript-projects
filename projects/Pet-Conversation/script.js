@@ -17,14 +17,13 @@
     ];
     const possiblDogAnswers = [
         "woof",
-        "meoooooowwwwww",
         "WOOF! WOOF!",
         "Woof?",
         "Woof woof?",
         "WOOOOOOFF!!!",
         "woof woof woof woof woof",
     ];
-    let currentPet = "cat";
+    let currentPet = document.querySelector("input[type='radio']:checked").value;
 
     pets.forEach((pet) => {
         pet.addEventListener("change", (event) => {
@@ -41,7 +40,7 @@
             return;
         }
         message.value = "";
-        conversation.innerHTML += `<p class="user-message">${text}</p>`;
+        conversation.innerHTML += `<p class="user-message">You: ${text}</p>`;
 
         //Pet input
         let currentPetAnswers =
@@ -50,7 +49,10 @@
             Math.random(currentPetAnswers.length) * currentPetAnswers.length
         );
         let currentAnswer = currentPetAnswers[randomIndex];
-        conversation.innerHTML += `<p class="pet-message">${currentAnswer}</p>`;
+        conversation.innerHTML += `<p class="pet-message">${currentPet}: ${currentAnswer}</p>`;
+        
+        //scroll
+        conversation.scrollTop = conversation.scrollHeight;
     }
 
     btn.addEventListener("click", function () {
