@@ -42,3 +42,11 @@ input {
 	border: 1px solid #999999;
 	box-shadow: 1px 1px #cccccc;
 }
+
+h1{
+	margin-left: 70px;
+}
+.img{
+	display: flex;
+}
+
