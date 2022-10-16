@@ -56,6 +56,7 @@ Please read the following before contributing to the repository:
 - [digital-clock](./projects/digital-clock) 
 - [election-map](./projects/election-map) 
 - [light-dark-mode-toggle](./projects/light-dark-mode-toggle) 
+- [loading-animation](./projects/loading-animation) 
 - [noughts-and-crosses](./projects/noughts-and-crosses) 
 - [quote-generator](./projects/quote-generator) 
 - [rgb-to-hex-convertor](./projects/rgb-to-hex-convertor) 
