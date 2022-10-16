@@ -62,7 +62,8 @@ Please read the following before contributing to the repository:
 - [quote-generator](./projects/quote-generator) 
 - [rgb-to-hex-convertor](./projects/rgb-to-hex-convertor) 
 - [rock-paper-scissors](./projects/rock-paper-scissors) 
-- [todolist](./projects/todolist)
+- [todolist](./projects/todolist) 
+- [whack-a-mole](./projects/whack-a-mole)
 
 ## 😎 Maintainer
 
