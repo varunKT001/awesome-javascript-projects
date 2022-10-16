@@ -54,6 +54,7 @@ Please read the following before contributing to the repository:
 - [clock](./projects/clock) 
 - [dark-mode-calculator](./projects/dark-mode-calculator) 
 - [digital-clock](./projects/digital-clock) 
+- [election-map](./projects/election-map) 
 - [light-dark-mode-toggle](./projects/light-dark-mode-toggle) 
 - [noughts-and-crosses](./projects/noughts-and-crosses) 
 - [quote-generator](./projects/quote-generator) 
