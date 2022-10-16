@@ -1,0 +1,349 @@
+/*CSS Reset*/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Header Styling*/
+
+#top {
+  color: rgb(233, 103, 103);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+/* Navigation bar styling*/
+
+/*Navbar image styling*/
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 93px;
+}
+
+.logo h1 {
+  margin-left: 10px;
+}
+
+#navbar img {
+  display: block;
+  width: 40px;
+  height: 37px;
+}
+
+/*Navbar Functionality*/
+#navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(33 33 33 / 88%);
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100vw;
+  border: none;
+  font-family: "Ubuntu Mono", monospace;
+  z-index: 200;
+}
+
+/*Navbar content functionality*/
+#navcontent {
+  display: flex;
+  justify-content: center;
+  margin-right: 156px;
+}
+
+/*Navbar content styling*/
+ul li {
+  list-style: none;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+ul li a {
+  padding: 1px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+ul li a:hover {
+  background-color: rgb(228, 98, 98);
+  border-radius: 10px;
+  color: black;
+}
+
+/* website background image designing */
+
+.hero {
+  width: 100vw;
+  height: 63vh;
+}
+
+.hero {
+  content: "";
+  margin-top: 0px;
+  background: url(back_image.jpeg) no-repeat center/cover;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  opacity: .89;
+}
+
+#container1 {
+  width: 60%;
+}
+
+
+#row1 {
+  color: white;
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-left: 60px;
+  margin-top: 4px;
+  word-spacing: 0.2rem;
+  padding-top: 202px;
+}
+
+/*Button Styling*/
+
+#container3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 500px;
+}
+
+#row2 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 40px;
+}
+
+#row2 p {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 75px;
+  word-spacing: 0.2rem;
+  margin-bottom: 60px;
+}
+
+.btn {
+  padding: 18px 23px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: rgb(187, 76, 76);
+  color: black;
+  font-weight: 900;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+
+}
+
+.btn:hover {
+  background-color: rgb(187, 56, 56);
+  cursor: pointer;
+}
+
+
+#row3 {
+  position: relative;
+  width: 24vw;
+  height: 21vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  box-shadow: 2px 7px 16px 19px;
+  margin-top: 51px;
+  margin-bottom: 51px;
+  margin-left: 38px;
+  border-radius: 40px;
+}
+
+.hero2 {
+
+  color: rgb(187, 56, 56);
+}
+
+#top3 {
+  text-align: center;
+  font-size: 3.0rem;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+#container4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  margin: 41px;
+  margin-top: 70px;
+  margin-left: 160px;
+}
+
+.row4 {
+  width: 20vw;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row4 img {
+  border-radius: 10px;
+  height: 600px;
+  margin-bottom: 40px;
+}
+
+.btn1 {
+  padding: 15px 18px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: rgb(187, 76, 76);
+  color: black;
+  font-weight: 700;
+  border: none;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: rgb(187, 56, 56);
+}
+
+#row5 {
+  width: 29vw;
+  height: 360px;
+  border: 2px solid black;
+  background: url("a2.jpeg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 15px;
+}
+
+#row6 {
+  width: 30vw;
+  height: 360px;
+  border: 2px solid black;
+  background: url("a3.jpeg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 15px;
+}
+
+/*Designing the footer*/
+footer {
+  height: 80px;
+  text-align: center;
+  margin-top: 150px;
+  background-color: rgb(12, 6, 6);
+}
+
+footer p {
+  padding-top: 30px;
+  color: white;
+}
+
+/*Designing of Contact Us*/
+#ContactUs {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+}
+
+.form-shape input,
+.form-shape select,
+.form-shape textarea {
+  width: 92%;
+  padding: 0.5rem;
+}
+
+/*Changing the color of placeholder*/
+::placeholder {
+  color: gray;
+}
+
+/*Making the webpage responsive using media queries*/
+@media only screen and (max-width: 1131px) {
+  #row4 {
+    width: 42vw;
+  }
+
+  #row5 {
+    width: 45vw;
+  }
+
+  #row6 {
+    margin-top: 20px;
+    width: 90vw;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 781px) {
+  #row4 {
+    width: 84vw;
+    margin: auto;
+    margin-left: 22px;
+  }
+
+  #row5 {
+    width: 84vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 22px;
+  }
+
+  #row6 {
+    width: 84vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 22px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #row4 {
+    width: 78vw;
+    margin: auto;
+    margin-left: 3px;
+  }
+
+  #row5 {
+    width: 78vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 3px;
+  }
+
+  #row6 {
+    width: 78vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 3px;
+  }
+}
+
+@media only screen and (min-height: 1000px) {
+  #navbar {
+    height: 10vh;
+  }
+
+  #container1::before {
+    height: 39vh;
+  }
+
+  #container1 {
+    height: 44vh;
+  }
+}
