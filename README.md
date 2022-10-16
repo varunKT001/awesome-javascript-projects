@@ -58,6 +58,7 @@ Please read the following before contributing to the repository:
 - [light-dark-mode-toggle](./projects/light-dark-mode-toggle) 
 - [loading-animation](./projects/loading-animation) 
 - [noughts-and-crosses](./projects/noughts-and-crosses) 
+- [number-guess-game](./projects/number-guess-game) 
 - [quote-generator](./projects/quote-generator) 
 - [rgb-to-hex-convertor](./projects/rgb-to-hex-convertor) 
 - [rock-paper-scissors](./projects/rock-paper-scissors) 
