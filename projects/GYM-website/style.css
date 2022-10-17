@@ -85,6 +85,34 @@ div.overaly{
     opacity: 0.85;
 }
 
+/* bottom to top button */
+#btnScrollToTop {
+    display: none;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #262626;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: #ec9646;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#btnScrollToTop:hover {
+    background: #ec9646;
+    color: black;
+}
+
+#btnScrollToTop i {
+
+    font-size: 2rem;
+
+}
+
 .mid{
     position:absolute; 
     top:50%;
