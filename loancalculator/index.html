@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Loan Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="calculator">
+		<justify><h1>LOAN CALCULATOR</h1></justify>
+
+		<!-- Calling Calculate function defined in app.js -->
+		<p>Amount (₹) :<br>
+			<input id="amount" type="number">
+		</p>
+
+		<p>Interest Rate :
+			<input id="rate" type="number">
+		</p>
+
+		<p>Months to Pay :
+			<input id="months" type="number">
+		</p>
+        <div class="button_container">
+            <!--calculate button-->
+            <button id="submit" class="button1">Calculate</button>
+            <!--reset button-->
+            <br>
+            <br>
+            <button id="reset" class="button2">Reset</button>
+            <br>
+         </div>
+        <center><p class="total"></p></center>
+        </div> 
+		<h2 id="total"></h2>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+
+</html>
