@@ -1,19 +1,95 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --box-shadow: -3px 0px 19px 0px rgb(0 0 0 / 27%);
+}
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.header-bg {
+  background-color: #f44336;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-bg h4 {
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background: url(https://24.media.tumblr.com/tumblr_m87dri70zh1qzla33o1_500.gif);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.add-todo {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+  -webkit-box-shadow: var(--box-shadow);
+  -moz-box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
+  width: 100%;
+}
+.add-todo input {
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  height: 40px;
+  padding: 0 20px;
+  float: left;
+  font-size: 16px;
+  background: #fff;
+}
+.add-todo input:focus {
+  outline: none;
+}
+.add-todo button {
+  border: none;
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0;
+  height: 40px;
+  transition: background-color 0.25s ease;
+}
+.add-todo button:hover {
+  background-color: #bbb;
+}
+
+.todo-list {
+  margin-top: 25px;
+}
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 ul li {
   cursor: pointer;
   position: relative;
-  padding: 12px 8px 12px 40px;
+  padding: 12px 50px 12px 40px;
   background: #eee;
   font-size: 18px;
-  transition: 0.2s;
+  word-break: break-word;
 }
 
 ul li:nth-child(odd) {
@@ -44,53 +120,18 @@ ul li.checked::before {
 }
 
 .close {
+  border: none;
   position: absolute;
   right: 0;
   top: 0;
-  padding: 12px 16px 12px 16px;
+  text-align: center;
+  font-size: 20px;
+  height: 100%;
+  width: 45px;
+  cursor: pointer;
 }
 
 .close:hover {
   background-color: #f44336;
   color: white;
-}
-
-.header {
-  background-color: #f44336;
-  padding: 30px 40px;
-  color: white;
-  text-align: center;
-}
-
-.header:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-input {
-  margin: 0;
-  border: none;
-  border-radius: 0;
-  width: 75%;
-  padding: 10px;
-  float: left;
-  font-size: 16px;
-}
-
-.addBtn {
-  padding: 10px;
-  width: 25%;
-  background: #d9d9d9;
-  color: #555;
-  float: left;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
-  border-radius: 0;
-}
-
-.addBtn:hover {
-  background-color: #bbb;
 }

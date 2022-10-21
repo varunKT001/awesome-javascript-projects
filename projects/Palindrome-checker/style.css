@@ -1,3 +1,22 @@
+body{
+  background-image: url("palidrome.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 200%;
+  text-align: center;
+}
+
+.image{
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+
+h2{
+  color: black;
+}
+
 div {
   margin-top: 20px;
 }
