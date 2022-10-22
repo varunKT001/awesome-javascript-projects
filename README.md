@@ -39,6 +39,7 @@ Please read the following before contributing to the repository:
 - [Pet-Conversation](./projects/Pet-Conversation) 
 - [Pig-game](./projects/Pig-game) 
 - [Quizer](./projects/Quizer) 
+- [Sketching-game](./projects/Sketching-game) 
 - [Stopwatch](./projects/Stopwatch) 
 - [Student-Enrollment-Form](./projects/Student-Enrollment-Form) 
 - [Survey-form](./projects/Survey-form) 
