@@ -1,0 +1,107 @@
+body{
+    font-family: 'Share Tech Mono';
+    background-color: #3A3845;
+    color: #F7CCAC;
+    box-sizing: border-box;box-sizing: border-box;
+}
+
+#container{         /*container that stores all grid cells*/
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    margin:0 4rem;
+}
+
+.containerChild{           /* each individual grid cell */
+    border: 1px solid black;
+    background-color: #826F66;
+    cursor: pointer;
+}
+
+.title{
+    margin: 0 0 1rem;
+    padding: 0;
+    font-family: 'VT323';
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3.5rem;
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+button{
+    margin-top: 2%;
+    padding: 4% 0;
+    font-weight: 600;
+    background-color: #826F66;
+    border: 3px solid #3A3845;
+    text-align: center;
+    color: #F7CCAC;
+    border-radius: 8px;
+    box-shadow: 8px 5px 5px #F7CCAC;
+    font-family: 'Share Tech Mono';
+    font-size: 16px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 3px 2px 2px #F7CCAC;
+}
+
+button:active{
+    box-shadow: 0 0 0;
+}
+
+.custom-color{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.customColor{
+    margin: 2px;
+    padding: 4px 5px;
+    border: 1px dotted #3A3845;
+    border-radius: 6px;
+    background-color: #826F66;
+}
+
+.sliderRange{
+     -webkit-appearance: none; /* Override default CSS styles */
+    width: 100%;
+    height: 8px;
+    background-color: #826F66;
+    opacity: 0.6;
+    border-radius: 8px;
+}
+
+.sliderRange:hover{
+    opacity: 1;
+}
+
+.sliderRange::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+  }
+
+.sliderRange::-moz-range-thumb {
+    -webkit-appearance: none; /*Override default look */
+    background-color: #3A3845;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
