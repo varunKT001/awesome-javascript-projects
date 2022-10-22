@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Monofett&family=Share+Tech+Mono&family=VT323&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="title">Etch-a-Sketch</h1>
+
+    <div class="content">
+        <div class="left">
+            <div class="custom-color">
+                <label for="customColor">Custom Color?</label>
+                <input type="color" class="customColor" id="customColor" name="customColor">
+            </div>
+            <button class="color" type="button">Black</button>
+            <button class="randColor" type="button">Random Color</button>
+            <button class="eraser" type="button">Eraser</button>
+        </div>
+
+        <div id="container">
+            <!--Original container-->
+        </div>
+
+        <div class="right">
+            <div class="slider">
+                <input type="range" class="sliderRange" id="gridSize" name="girdSize" min="0" max="100" value="16"
+                    oninput="this.nextElementSibling.value = `${this.value} x ${this.value}`">
+                <!--Slider.-->
+                <output class="output">16 x 16</output>
+            </div>
+            <button onclick="create()" class="create">Create</button>
+            <!--apply new grid size-->
+            <button onclick="btnReset()" class="btnReset">Reset</button> <!-- button to reset the entire grid -->
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
