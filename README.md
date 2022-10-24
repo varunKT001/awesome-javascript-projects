@@ -15,6 +15,7 @@ Please read the following before contributing to the repository:
 ## 💻 Projects
 
  
+- [2048game](./projects/2048game) 
 - [3-d-css](./projects/3-d-css) 
 - [8-ball](./projects/8-ball) 
 - [BMI-calculator](./projects/BMI-calculator) 
