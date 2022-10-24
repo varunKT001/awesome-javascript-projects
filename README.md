@@ -67,7 +67,8 @@ Please read the following before contributing to the repository:
 - [rock-paper-scissors](./projects/rock-paper-scissors) 
 - [todolist](./projects/todolist) 
 - [typewriter-effect](./projects/typewriter-effect) 
-- [whack-a-mole](./projects/whack-a-mole)
+- [whack-a-mole](./projects/whack-a-mole) 
+- [wordlegame](./projects/wordlegame)
 
 ## 😎 Maintainer
 
