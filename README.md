@@ -59,6 +59,7 @@ Please read the following before contributing to the repository:
 - [election-map](./projects/election-map) 
 - [light-dark-mode-toggle](./projects/light-dark-mode-toggle) 
 - [loading-animation](./projects/loading-animation) 
+- [loancalculator](./projects/loancalculator) 
 - [noughts-and-crosses](./projects/noughts-and-crosses) 
 - [number-guess-game](./projects/number-guess-game) 
 - [quote-generator](./projects/quote-generator) 
