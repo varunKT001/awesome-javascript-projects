@@ -24,6 +24,7 @@ Please read the following before contributing to the repository:
 - [Currency-Convertor](./projects/Currency-Convertor) 
 - [DiceGame](./projects/DiceGame) 
 - [Drawing-App](./projects/Drawing-App) 
+- [Drum_kit](./projects/Drum_kit) 
 - [Event-Webpage](./projects/Event-Webpage) 
 - [Food-delivery-system](./projects/Food-delivery-system) 
 - [GYM-website](./projects/GYM-website) 
