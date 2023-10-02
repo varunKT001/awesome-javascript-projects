@@ -50,7 +50,7 @@ function updatedata(parent, data) {
                     </div>
 
                     <div>
-                        <p class="light">${data.followers}</p>
+                        <p class="light">${data.following}</p>
                         <span>Following</span>
                     </div>
 
