@@ -1,59 +1,85 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   }
-   
-   body{
-    min-height: 100vh;
+  }
+  body {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-   
-   }
-   
-   .calculator{
-    flex: 0 0 95%;
-   }
-   .screen{
+  }
+  .container {
+    position: relative;
+    max-width: 300px;
     width: 100%;
-    font-size: 7rem;
-    padding: 0.5rem;
-    background: rgb(41,41,56);
-    color: white;
-    border:none;
-   }
-   
-   .buttons{
-    display: flex;
-    flex-wrap: wrap;
-    transition: all 0.5s linear;
-   }
-   
-   button{
-    flex:0 0 25%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  
+  }
+  .screen {
+    height: 80px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #000e1a;
+    pointer-events: none;
     border: 1px solid black;
-    padding: 0.25rem 0;
-    transition: all 2s ease;
-   }
-   button:hover{
-    background: blue;
-   }
-   .btn-yellow{
-    background: rgb(245,146,62);
-    color: white;
-   }
-   .btn-grey{
-    background: rgb(224,224,224);
-   }
-   .btn,.btn-equal,.btn-clear{
-    font-size: 4rem;
-   }
-   .btn-equal{
-    background: green;
-    color: white;
-   }
-   .btn-clear{
-    background: rgb(126, 0, 0);
-    color: white;
-   }
+    border-radius: 3px;
+    padding: 0px 5px 0px 5px;
+    background: rgb(171, 206, 50);
+  
+  }
+  .buttons {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    transition: all 0.5s linear;
+  }
+  button:hover {
+    background-color: blue;
+  }
+  
+  .buttons button {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .buttons button:hover {
+    background-color: #ccc;
+    transform: translate(0, 2px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .buttons button.btn-yellow {
+    background: rgb(171, 206, 50);
+    color: #fff;
+    box-shadow: 0px 0px 10px rgba(171, 206, 50, 0.7);
+  }
+  
+  .buttons button.btn-yellow:hover {
+    background-color: #a4c637;
+    box-shadow: 0px 0px 10px rgba(171, 206, 50, 1);
+  }
+  
+  .buttons button.btn-clear {
+      color: red;
+  }
+  .buttons button.btn-clearDigit {
+      font-size: 1rem;
+      color: red;
+  }
